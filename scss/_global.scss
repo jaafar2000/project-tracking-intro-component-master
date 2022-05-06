@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Barlow Condensed", sans-serif;
+}
+.font__B {
+  font-family: "Barlow", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.fccr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.fcspr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.fccc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fcspc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.fcsac {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.fcsar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.border {
+  border: 1px solid red;
+}
+
+.rotate45 {
+  top: 8px !important;
+  transform: rotate(45deg);
+}
+
+.rotate__45 {
+  top: 8px !important;
+  transform: rotate(-45deg);
+}
+.vanish {
+  opacity: 0;
+}

@@ -1,0 +1,29 @@
+@keyframes show {
+	0%{
+		visibility: hidden;
+		opacity: 0;
+	}
+	100%{
+		visibility: visible;
+		opacity: 1;
+	}
+	
+}
+@keyframes hide {
+	0%{
+		visibility: visible;
+		opacity: 1;
+	}
+	100%{
+		visibility: hidden;
+		opacity: 0;
+	}
+	
+}
+
+.show__List{
+  animation: show 200ms ease-in-out forwards ;
+}
+.hide__List{
+  animation: hide 200ms ease-in-out forwards ;
+}
